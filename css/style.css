@@ -3,14 +3,14 @@
 body {
 	margin: 0;
 	font-family: 'Cairo', 'Open Sans', sans-serif;
-	height: 1500px;
+	
 }
 
 #header{
 	width: 100%;
 	min-height: 50px;
 	background: #fff;
-	box-shadow: 0 0 35px #e6e6e6;
+	box-shadow: 0 0 35px rgba(0,0,0,.1);
 	position: fixed;
 	top: 0;
 }
@@ -88,4 +88,122 @@ body {
 
 #navbar .dropdown:hover .dropdown-content{
     display: block;
+}
+#main{
+	width: 1440px;
+	height: 2000px;
+	color: #fff;
+	direction: rtl;
+	
+}
+
+#main-header-background{
+	display: -webkit-box;
+	height: 500px;
+	background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(../images/map.jpg) 50% no-repeat;
+	background-size: cover;
+	margin-bottom: -1px;
+	margin-left: -1px;
+}
+#main-header-content{
+	width: 1170px;
+	height: 450px;
+	display: inline-block;
+	margin: auto 140px;
+	position: inherit;
+	text-align: center;
+	/*background-color: rgba(100,1,1,0.6);*/ /*a retirer*/
+
+}
+#main-header-content-text{
+	margin: 86px auto;
+	height: 285px;
+	padding-top: 10px;
+	/*background-color: rgba(0,0,0,.6);*/ /*a retirer*/
+	display: inline-block;
+	line-height: 1.1;
+}
+#main-header-content-text h1{
+	font-size: 42px;
+	margin-top: 86px;
+}
+
+#main-header-content-text h3{
+	margin-top:25px;
+}
+#enroll{
+	height: 77px;
+	display: inline-flex;
+}
+.btn{
+	font-size: 26px;
+	text-decoration: none;
+	color: white;
+	background-color: #11b7e6;
+	padding: 15px 24px;
+	outline: none;
+	margin-top: 20px;
+	box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
+	transition: all .5s;
+	border-radius: 3px;
+}
+
+.btn:hover{
+	background-color: #029fcb;
+}
+#main-about{
+	margin-right: 330px;
+	margin-left: 330px;
+	text-align: center;
+}
+
+#main-about, #main-info{
+	height: 480px;
+	/*background-color: rgba(0,0,0,.6);*/
+	/*margin-top: 62px;*/
+	color: #333;
+}
+
+#main-info h1{
+	text-align: center;
+}
+#main-info .underline{
+	margin-left: 0;
+	margin-right: 537px;
+}
+
+.main-about-text p{
+	font-size: 16px;
+	line-height: 30px;
+	margin:25px 25px 0 25px;
+}
+
+.main-about-title{
+	margin: 56px 0;
+}
+.underline{
+	background-color: #00aaf6;
+	height: 2px;
+	width:90px;
+	margin-left: 25%;
+	margin-right: 44%;
+	margin-top: -16px;
+	
+}
+#main-about h1, #main-info h1{
+	font-size: 35px;
+}
+.main-info-list li{
+	list-style-type: circle;
+	font-size: 14px;
+	line-height: 2.3;
+}
+
+#main-info{
+	margin-right: 135px;
+	margin-left: 135px;
+}
+.macLink{
+	text-decoration: none;
+	color: #00aaf6;
 }
